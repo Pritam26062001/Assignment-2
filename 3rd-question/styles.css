@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav{
+    background-color: #6495ed;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-bottom:2px solid transparent;
+}
+
+.nav-item.home a{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item.about a{
+    border-bottom: 2px dashed #fff;
+}
+
+.nav-item.contact a{
+    border-bottom: 2px dotted #fff;
+}
+
+.nav-item.blog a{
+    border-bottom: 2px double #fff;
+}
+
+.nav-item.login a{
+    border-bottom: 2px groove #fff;
+}
+
+.nav-item a:hover {
+    border-bottom-color: #000;
+}

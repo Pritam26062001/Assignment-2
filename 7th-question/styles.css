@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serief;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #16c2c2;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.1);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s ease-in-out;
+}
+
+.card:hover{
+    opacity: 0.6;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
